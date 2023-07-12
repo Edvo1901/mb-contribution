@@ -1,0 +1,80 @@
+.container {
+    height: 750px;
+    width: 800px;
+    background-image: linear-gradient(to bottom, #073c67, rgba(32, 56, 189));
+    border-radius: 50px;
+    position: relative;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    padding-left: 40px;
+}
+
+.rank {
+    padding-top: 15px;
+    padding-right: 20px;
+    font-weight: bold;
+    text-align: center;
+    font-style: italic;
+}
+
+.info-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.left,
+.right {
+    width: 50%;
+    /* Adjust as needed */
+}
+
+.right {
+    padding-right: 20px;
+}
+
+.rankingContainer {
+    max-height: 500px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    scrollbar-width: thin;
+    scrollbar-color: rgba(0, 0, 0, .1) transparent;
+    height: calc(100% - 60px);
+}
+
+.rankingContainer:hover {
+    scrollbar-color: rgba(0, 0, 0, .5) transparent;
+    /* For Firefox */
+}
+
+.rankingContainer::-webkit-scrollbar {
+    width: 4px;
+}
+
+.rankingContainer::-webkit-scrollbar-thumb {
+    background-color: rgba(0, 0, 0, .1);
+    border-radius: 20px;
+}
+
+.rankingContainer::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+.rankingContainer::-webkit-scrollbar-thumb:hidden {
+    background: transparent;
+}
+
+.closeContainer {
+    position: absolute;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
+    right: 120px;
+    bottom: 35px;
+}

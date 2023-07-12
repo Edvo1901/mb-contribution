@@ -1,0 +1,35 @@
+.donor-container {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th,
+td {
+    padding: 10px;
+}
+
+td {
+    padding-top: 20px;
+}
+
+thead tr {
+    border-bottom: 1px solid white;
+}
+
+.stickyHeader {
+    position: sticky;
+    top: 0;
+    z-index: 2;
+    background-image: linear-gradient(to bottom, #073c67, rgba(32, 56, 189));
+}
+
+.align-right {
+    text-align: right;
+}
+
+

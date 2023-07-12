@@ -1,0 +1,46 @@
+.DonateAction {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.DonateAction h1 {
+    margin-bottom: 15px;
+}
+
+.DonateAction input {
+    margin-bottom: 10px;
+    padding: 8px;
+    font-size: 14px;
+}
+
+.DonateAction button {
+    padding: 8px 16px;
+    font-size: 14px;
+    color: white;
+    background-color: green;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.DonateAction button:hover {
+    background-color: darkgreen;
+}
+
+input {
+    width: 200px;
+    height: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 10px;
+    font-size: 16px;
+    color: black;
+}
+
+input::placeholder {
+    color: #888;
+}
+

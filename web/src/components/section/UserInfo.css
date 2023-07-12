@@ -1,0 +1,25 @@
+.user-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.personal-title {
+    padding-top: 24px;
+}
+
+.userInfo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.userInfo .name, .userInfo .money {
+    border: 1px solid black;
+    border-radius: 8px;
+    width: 200px;
+    padding: 10px;
+    margin: 5px;
+    background-image: linear-gradient(to bottom, #376992, rgb(54, 72, 172));
+}

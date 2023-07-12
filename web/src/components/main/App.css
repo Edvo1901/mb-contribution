@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@600&family=Merriweather+Sans:wght@500&family=Overpass&family=Poppins:ital,wght@0,500;1,400&display=swap');
+
+*{
+    font-family: 'Overpass', sans-serif;
+	color: white;
+}
+
+.App {
+	position: relative;
+}
+
+.App .App-container {
+	position: absolute;
+	top: 200px;
+	left: 550px;
+}
